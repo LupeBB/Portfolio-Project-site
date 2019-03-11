@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+    text-align: center;  
+    font-size: 30px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+}
+ul{
+    color: darkblue;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: palevioletred;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+
+}
+.summary {
+    color: darkblue;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: palevioletred;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+}
