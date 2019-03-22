@@ -1,0 +1,93 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+    text-align: center;  
+    font-size: 30px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+}
+
+.myskills{
+    color: darkblue;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: palevioletred;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ 
+}
+
+.summary {
+    color:darkblue;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: palevioletred;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.projects {
+    color: blue;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: palevioletred;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;  
+
+}
+
+
+body {
+    background-image: url("https://i.postimg.cc/BQTkwW2f/giphy.gif");
+    background-size: cover;
+    
+}
+.project1 {
+    float:left;
+    min-width:300px;
+    max-width:900px;
+    width:50%;  
+}
+.project2{
+    margin-top: 5%;
+}
+.list0 {  
+    text-align: left;
+    min-width:300px;
+    max-width:900px;
+    width:50%;  
+    list-style-type:circle;
+    margin-left: 5%;
+}
+.list1 li{
+    text-align: center;
+    list-style-type:circle;
+    min-width:300px;
+    max-width:900px;
+
+    margin-left: 5%;
+}
+.list2{
+    text-align: right;
+    list-style-type:circle;
+    margin-right: 5%;
+    margin-top: -6%;
+    margin-bottom: 5%;
+    padding: -25%;
+}
