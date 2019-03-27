@@ -91,3 +91,10 @@ body {
     margin-bottom: 5%;
     padding: -25%;
 }
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border: 1px solid palevioletred;
+    border-radius: 4px;
+    padding: 5px;
+}
