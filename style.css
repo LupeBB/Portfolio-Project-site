@@ -7,14 +7,13 @@ h1{
 h2{
     font-family: 'Courier New', Courier, monospace;
     color: darkgreen;
+    text-align: center; 
 }
 
 .myskills{
     color: darkblue;
     padding: 10px;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: palevioletred;
+   
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -29,9 +28,7 @@ h2{
 
 .summary {
     color:darkblue;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: palevioletred;
+    
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
@@ -42,17 +39,11 @@ h2{
 }
 .projects {
     color: blue;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: palevioletred;
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    text-align: center;  
-
+    text-align: center;
 }
-
-
 body {
     background-image: url("https://i.postimg.cc/BQTkwW2f/giphy.gif");
     background-size: cover;
@@ -67,30 +58,33 @@ body {
 .project2{
     margin-top: 5%;
 }
-.list0 {  
+
+.list1 {  
     text-align: left;
-    min-width:300px;
-    max-width:900px;
-    width:50%;  
+    margin-top: -1%;
     list-style-type:circle;
-    margin-left: 5%;
+    margin-left: 7%;
+   
 }
-.list1 li{
+
+.list3{
     text-align: center;
     list-style-type:circle;
-    min-width:300px;
-    max-width:900px;
-
-    margin-left: 5%;
+    margin-top: -12%;
+    margin-left: -4%;
+    margin-bottom: 5%;
+    
 }
+
 .list2{
     text-align: right;
     list-style-type:circle;
-    margin-right: 5%;
-    margin-top: -6%;
-    margin-bottom: 5%;
-    padding: -25%;
+    margin-right: 15%;
+    margin-top: -5%;
+    margin-bottom: 6%;
+  
 }
+
 img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -98,3 +92,16 @@ img:hover {
     border-radius: 4px;
     padding: 5px;
 }
+img {
+    border-radius: 50%;
+  }
+  fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  }
