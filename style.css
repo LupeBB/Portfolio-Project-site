@@ -13,7 +13,6 @@ h2{
 .myskills{
     color: darkblue;
     padding: 10px;
-   
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -54,9 +53,11 @@ body {
     min-width:300px;
     max-width:900px;
     width:50%;  
+    font-family: 'Courier New', Courier, monospace;
 }
 .project2{
     margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .list1 {  
@@ -105,3 +106,23 @@ img {
     padding-right: 0.75em;
     border: 2px groove (internal value);
   }
+.cercap{
+    margin-left: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+    .udacity {
+        
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .logo{
+        margin-right: 5%;
+        font-family: 'Courier New', Courier, monospace;
+        float: right;
+        
+    }
+ 
